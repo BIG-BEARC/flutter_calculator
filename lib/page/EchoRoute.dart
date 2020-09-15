@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_calculator/data/EchoRouteParams.dart';
-
+///参数传递练习2
 class EchoRoute  extends StatelessWidget{
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+///参数传递练习1
 class TipsRoute extends StatelessWidget {
   final String _text;
 
