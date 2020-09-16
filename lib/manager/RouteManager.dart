@@ -2,23 +2,27 @@ import 'package:flutter_calculator/CounterWidget.dart';
 import 'package:flutter_calculator/page/ContainerWidget.dart';
 import 'package:flutter_calculator/page/FlexLayoutTestRoute.dart';
 import 'package:flutter_calculator/page/FormTestRoute.dart';
-import 'file:///D:/flutter_project/flutter_calculator/lib/page/scroll_widget/ListViewRoute.dart';
 import 'package:flutter_calculator/page/NewRoute.dart';
 import 'package:flutter_calculator/page/NormalWidget.dart';
 import 'package:flutter_calculator/page/ParentWidget.dart';
 import 'package:flutter_calculator/page/ScaffoldRoute.dart';
-import 'file:///D:/flutter_project/flutter_calculator/lib/page/scroll_widget/SingleChildScrollViewTestRoute.dart';
 import 'package:flutter_calculator/page/StackAndPositionWidget.dart';
 import 'package:flutter_calculator/page/SwitchAndCheckBoxTestRoute.dart';
 import 'package:flutter_calculator/page/TapboxA.dart';
-import 'file:///D:/flutter_project/flutter_calculator/lib/page/EchoRoute.dart';
-import 'file:///D:/flutter_project/flutter_calculator/lib/page/TapboxC .dart';
-import 'file:///D:/flutter_project/flutter_calculator/lib/page/TapboxB.dart';
-import 'file:///D:/flutter_project/flutter_calculator/lib/page/TipRoute.dart';
 import 'package:flutter_calculator/page/TextEditAndFormWidget.dart';
 import 'package:flutter_calculator/page/WrapAndFlowWidget.dart';
 import 'package:flutter_calculator/page/scroll_widget/CustomScrollViewTestRoute.dart';
 import 'package:flutter_calculator/page/scroll_widget/ScrollControllerTestRoute.dart';
+import 'package:flutter_calculator/page/share/DialogWidgetRoute.dart';
+import 'package:flutter_calculator/page/share/FutureBuilderAndStreamBuilder.dart';
+import 'package:flutter_calculator/page/share/ProviderRoute.dart';
+
+import 'file:///D:/flutter_project/flutter_calculator/lib/page/EchoRoute.dart';
+import 'file:///D:/flutter_project/flutter_calculator/lib/page/TipRoute.dart';
+import 'file:///D:/flutter_project/flutter_calculator/lib/page/scroll_widget/ListViewRoute.dart';
+import 'file:///D:/flutter_project/flutter_calculator/lib/page/scroll_widget/SingleChildScrollViewTestRoute.dart';
+import 'file:///D:/flutter_project/flutter_calculator/lib/page/share/ShareDataWidget.dart';
+import 'package:flutter_calculator/page/share/ThemeTestRoute.dart';
 
 /// 路由管理类
 
@@ -43,6 +47,11 @@ const Route_SingleChildScrollViewTestRoute = "/SingleChildScrollViewTestRoute";
 const Route_ListViewRoute = "/ListViewRoute";
 const Route_CustomScrollViewTestRoute = "/CustomScrollViewTestRoute";
 const Route_ScrollControllerTestRoute = "/ScrollControllerTestRoute";
+const Route_InheritedWidgetTestRoute = "/InheritedWidgetTestRoute";
+const Route_ProviderRoute = "/ProviderRoute";
+const Route_ThemeTestRoute = "/ThemeTestRoute";
+const Route_FutureBuilderAndStreamBuilder = "/FutureBuilderAndStreamBuilder";
+const Route_DialogWidget = "/DialogWidget";
 
 var routePath = {
   '$Route_TapboxA': (context) => TapboxA(),
@@ -66,4 +75,9 @@ var routePath = {
   '$Route_ListViewRoute': (context) => ListViewRoute(),
   '$Route_CustomScrollViewTestRoute': (context) => CustomScrollViewTestRoute(),
   '$Route_ScrollControllerTestRoute': (context) => ScrollControllerTestRoute(),
+  '$Route_InheritedWidgetTestRoute': (context) => InheritedWidgetTestRoute(),
+  '$Route_ProviderRoute': (context) => ProviderRoute(),
+  '$Route_ThemeTestRoute': (context) => ThemeTestRoute(),
+  '$Route_FutureBuilderAndStreamBuilder': (context) => FutureBuilderAndStreamBuilder(),
+  '$Route_DialogWidget': (context) => DialogWidget(),
 };

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_calculator/manager/RouteManager.dart';
 
-
 import 'data/EchoRouteParams.dart';
 
 void main() {
@@ -229,6 +228,43 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text('To ScrollControllerTestRoute'),
                         color: Colors.blue,
                       ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushNamed(Route_InheritedWidgetTestRoute);
+                        },
+                        child: Text('To InheritedWidgetTestRoute'),
+                        color: Colors.blue,
+                      ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context).pushNamed(Route_ProviderRoute);
+                        },
+                        child: Text('To ProviderRoute'),
+                        color: Colors.blue,
+                      ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context).pushNamed(Route_ThemeTestRoute);
+                        },
+                        child: Text('To ThemeTestRoute'),
+                        color: Colors.blue,
+                      ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushNamed(Route_FutureBuilderAndStreamBuilder);
+                        },
+                        child: Text('To FutureBuilderAndStreamBuilder'),
+                        color: Colors.blue,
+                      ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context).pushNamed(Route_DialogWidget);
+                        },
+                        child: Text('To DialogWidget'),
+                        color: Colors.blue,
+                      ),
                     ],
                   ),
                 ),
@@ -246,7 +282,6 @@ class _MyHomePageState extends State<MyHomePage> {
           if (_lastPressedAt == null ||
               DateTime.now().difference(_lastPressedAt) >
                   Duration(seconds: 1)) {
-
             _lastPressedAt = DateTime.now();
             return false;
           }
