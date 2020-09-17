@@ -11,6 +11,7 @@ import 'package:flutter_calculator/page/SwitchAndCheckBoxTestRoute.dart';
 import 'package:flutter_calculator/page/TapboxA.dart';
 import 'package:flutter_calculator/page/TextEditAndFormWidget.dart';
 import 'package:flutter_calculator/page/WrapAndFlowWidget.dart';
+import 'package:flutter_calculator/page/event_notification/EventAndNotification.dart';
 import 'package:flutter_calculator/page/scroll_widget/CustomScrollViewTestRoute.dart';
 import 'package:flutter_calculator/page/scroll_widget/ScrollControllerTestRoute.dart';
 import 'package:flutter_calculator/page/share/DialogWidgetRoute.dart';
@@ -52,6 +53,7 @@ const Route_ProviderRoute = "/ProviderRoute";
 const Route_ThemeTestRoute = "/ThemeTestRoute";
 const Route_FutureBuilderAndStreamBuilder = "/FutureBuilderAndStreamBuilder";
 const Route_DialogWidget = "/DialogWidget";
+const Route_EventAndNotification = "/EventAndNotification";
 
 var routePath = {
   '$Route_TapboxA': (context) => TapboxA(),
@@ -80,4 +82,5 @@ var routePath = {
   '$Route_ThemeTestRoute': (context) => ThemeTestRoute(),
   '$Route_FutureBuilderAndStreamBuilder': (context) => FutureBuilderAndStreamBuilder(),
   '$Route_DialogWidget': (context) => DialogWidget(),
+  '$Route_EventAndNotification': (context) => EventAndNotification(),
 };

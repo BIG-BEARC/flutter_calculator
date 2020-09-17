@@ -265,6 +265,14 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text('To DialogWidget'),
                         color: Colors.blue,
                       ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushNamed(Route_EventAndNotification);
+                        },
+                        child: Text('To EventAndNotification'),
+                        color: Colors.blue,
+                      ),
                     ],
                   ),
                 ),
