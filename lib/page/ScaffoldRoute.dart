@@ -59,7 +59,7 @@ class _ScaffoldRouteState extends State<ScaffoldRoute>
         ),
       ),
       drawer: MyDraw(),
-      /*  bottomNavigationBar: BottomNavigationBar(
+        bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(
@@ -70,8 +70,8 @@ class _ScaffoldRouteState extends State<ScaffoldRoute>
         currentIndex: _selectedIndex,
         fixedColor: Colors.blue,
         onTap: _onItemTapped,
-      ),*/
-      bottomNavigationBar: BottomAppBar(
+      ),
+/*      bottomNavigationBar: BottomAppBar(
         color: Colors.white,
         shape: CircularNotchedRectangle(), // 底部导航栏打一个圆形的洞
         child: Row(
@@ -82,7 +82,7 @@ class _ScaffoldRouteState extends State<ScaffoldRoute>
           ],
           mainAxisAlignment: MainAxisAlignment.spaceAround, //均分底部导航栏横向空间
         ),
-      ),
+      ),*/
       //PageView 组件，它和TabBarView功能相似
       body: TabBarView(
         /*       children: tabs.map((e){ //创建3个Tab页
