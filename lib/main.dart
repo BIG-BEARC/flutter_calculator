@@ -273,6 +273,14 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text('To EventAndNotification'),
                         color: Colors.blue,
                       ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushNamed(Route_AnimationDemo);
+                        },
+                        child: Text('To AnimationDemo'),
+                        color: Colors.blue,
+                      ),
                     ],
                   ),
                 ),

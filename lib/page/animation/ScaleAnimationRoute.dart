@@ -1,6 +1,6 @@
-import 'dart:html';
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class ScaleAnimationRoute extends StatefulWidget {
   @override
@@ -19,7 +19,7 @@ class _ScaleAnimationRouteState extends State<ScaleAnimationRoute>
     _animationController =
         AnimationController(duration: Duration(seconds: 3), vsync: this);
     //图片宽高从0变到300
-    _animation = Tween(begin: 0.0, end: 300).animate(_animationController)
+    _animation = Tween(begin: 0.0, end: 300.0).animate(_animationController)
       ..addListener(() {
         setState(() {});
       });
@@ -33,9 +33,13 @@ class _ScaleAnimationRouteState extends State<ScaleAnimationRoute>
   }
   @override
   Widget build(BuildContext context) {
-  return Center(
-    child: Image(
-    //  image: AssetImage(assetName),
+  return Scaffold(
+    body: Center(
+      child: Image(
+        image: AssetImage('images/time.jpeg'),
+        width: _animation.value,
+        height: _animation.value,
+      ),
     ),
   );
   }

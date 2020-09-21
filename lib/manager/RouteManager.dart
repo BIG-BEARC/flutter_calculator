@@ -11,6 +11,8 @@ import 'package:flutter_calculator/page/SwitchAndCheckBoxTestRoute.dart';
 import 'package:flutter_calculator/page/TapboxA.dart';
 import 'package:flutter_calculator/page/TextEditAndFormWidget.dart';
 import 'package:flutter_calculator/page/WrapAndFlowWidget.dart';
+import 'package:flutter_calculator/page/animation/AnimationDemo.dart';
+import 'package:flutter_calculator/page/animation/ScaleAnimationRoute.dart';
 import 'package:flutter_calculator/page/event_notification/EventAndNotification.dart';
 import 'package:flutter_calculator/page/scroll_widget/CustomScrollViewTestRoute.dart';
 import 'package:flutter_calculator/page/scroll_widget/ScrollControllerTestRoute.dart';
@@ -55,6 +57,9 @@ const Route_FutureBuilderAndStreamBuilder = "/FutureBuilderAndStreamBuilder";
 const Route_DialogWidget = "/DialogWidget";
 const Route_EventAndNotification = "/EventAndNotification";
 
+const Route_AnimationDemo = "/AnimationDemo";
+const Route_ScaleAnimationRoute = "/ScaleAnimationRoute";
+
 var routePath = {
   '$Route_TapboxA': (context) => TapboxA(),
   '$Route_ParentWidget': (context) => ParentWidget(),
@@ -83,4 +88,7 @@ var routePath = {
   '$Route_FutureBuilderAndStreamBuilder': (context) => FutureBuilderAndStreamBuilder(),
   '$Route_DialogWidget': (context) => DialogWidget(),
   '$Route_EventAndNotification': (context) => EventAndNotification(),
+
+  '$Route_AnimationDemo': (context) => AnimationDemo(),
+  '$Route_ScaleAnimationRoute': (context) => ScaleAnimationRoute(),
 };
