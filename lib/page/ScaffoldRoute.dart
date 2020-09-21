@@ -61,10 +61,10 @@ class _ScaffoldRouteState extends State<ScaffoldRoute>
       drawer: MyDraw(),
         bottomNavigationBar: BottomNavigationBar(
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('Home')),
           BottomNavigationBarItem(
-              icon: Icon(Icons.business), label: 'business'),
-          BottomNavigationBarItem(icon: Icon(Icons.school), label: 'School'),
+              icon: Icon(Icons.business), title: Text('business')),
+          BottomNavigationBarItem(icon: Icon(Icons.school), title: Text('School')),
 
         ],
         currentIndex: _selectedIndex,

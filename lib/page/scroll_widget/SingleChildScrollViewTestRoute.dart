@@ -9,7 +9,7 @@ class SingleChildScrollViewTestRoute extends StatelessWidget {
       appBar: AppBar(
         title: Text('SingleChildScrollViewTestRoute'),
         centerTitle: true,
-        actions: [IconButton(icon: Icon(Icons.apps_sharp), onPressed: () {})],
+        actions: [IconButton(icon: Icon(Icons.apps), onPressed: () {})],
       ),
 
       body: Scrollbar(

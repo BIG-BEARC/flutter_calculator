@@ -21,7 +21,7 @@ class _FormTestRouteState extends State<FormTestRoute> {
         padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0),
         child: Form(
             key: _formKey, //设置globalKey，用于后面获取FormState
-            autovalidateMode: AutovalidateMode.onUserInteraction, //开启自动校验
+            autovalidate: true,//开启自动校验
             child: Column(
               children: [
                 TextFormField(
