@@ -13,6 +13,7 @@ import 'package:flutter_calculator/page/TextEditAndFormWidget.dart';
 import 'package:flutter_calculator/page/WrapAndFlowWidget.dart';
 import 'package:flutter_calculator/page/animation/AnimationDemo.dart';
 import 'package:flutter_calculator/page/animation/ScaleAnimationRoute.dart';
+import 'package:flutter_calculator/page/custom_widget/CustomWidgetRoute.dart';
 import 'package:flutter_calculator/page/event_notification/EventAndNotification.dart';
 import 'package:flutter_calculator/page/file_network/FileAndNetWorkDemo.dart';
 import 'package:flutter_calculator/page/scroll_widget/CustomScrollViewTestRoute.dart';
@@ -61,6 +62,7 @@ const Route_EventAndNotification = "/EventAndNotification";
 const Route_AnimationDemo = "/AnimationDemo";
 const Route_ScaleAnimationRoute = "/ScaleAnimationRoute";
 const Route_FileAndNetWorkDemo = "/FileAndNetWorkDemo";
+const Route_CustomWidgetRoute = "/CustomWidgetRoute";
 
 var routePath = {
   '$Route_TapboxA': (context) => TapboxA(),
@@ -94,4 +96,5 @@ var routePath = {
   '$Route_AnimationDemo': (context) => AnimationDemo(),
   '$Route_ScaleAnimationRoute': (context) => ScaleAnimationRoute(),
   '$Route_FileAndNetWorkDemo': (context) => FileAndNetWorkDemo(),
+  '$Route_CustomWidgetRoute': (context) => CustomWidgetRoute(),
 };

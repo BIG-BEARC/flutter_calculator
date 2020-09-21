@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_calculator/manager/RouteManager.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'data/EchoRouteParams.dart';
 
@@ -12,6 +13,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ],
+      supportedLocales: [
+        Locale('en', 'US'), // 美国英语
+        Locale('zh', 'CN'), // 中文简体
+      ],
       title: 'Flutter Demo',
       //名为"/"的路由作为应用的home(首页)
       // initialRoute: '/',
@@ -286,6 +295,14 @@ class _MyHomePageState extends State<MyHomePage> {
                               .pushNamed(Route_FileAndNetWorkDemo);
                         },
                         child: Text('To FileAndNetWorkDemo'),
+                        color: Colors.blue,
+                      ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushNamed(Route_CustomWidgetRoute);
+                        },
+                        child: Text('To CustomWidgetRoute'),
                         color: Colors.blue,
                       ),
                     ],
