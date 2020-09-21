@@ -275,10 +275,17 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       RaisedButton(
                         onPressed: () {
-                          Navigator.of(context)
-                              .pushNamed(Route_AnimationDemo);
+                          Navigator.of(context).pushNamed(Route_AnimationDemo);
                         },
                         child: Text('To AnimationDemo'),
+                        color: Colors.blue,
+                      ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushNamed(Route_FileAndNetWorkDemo);
+                        },
+                        child: Text('To FileAndNetWorkDemo'),
                         color: Colors.blue,
                       ),
                     ],
