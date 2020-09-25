@@ -11,23 +11,23 @@ class SingleChildScrollViewTestRoute extends StatelessWidget {
         centerTitle: true,
         actions: [IconButton(icon: Icon(Icons.apps), onPressed: () {})],
       ),
-
       body: Scrollbar(
           child: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
-        child: Column(
+        child:  Column(
           children: str
               .split('')
               .map(
                 (e) => Center(
-                    child: Text(
+                child: Text(
                   e,
                   textScaleFactor: 2.0,
                 )),
-              )
+          )
               .toList(),
         ),
       )),
     );
   }
 }
+

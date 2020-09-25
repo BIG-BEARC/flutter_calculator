@@ -80,6 +80,7 @@ class _InfiniteGridViewState extends State<InfiniteGridView> {
   List<IconData> _icons = []; //保存Icon数据
 
   @override
+  // ignore: must_call_super
   void initState() {
     // 初始化数据
     _retrieveIcons();

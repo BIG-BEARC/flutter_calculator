@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+///尺寸限制类容器
 class ContainerWidget extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => _ContainerWidgetState();

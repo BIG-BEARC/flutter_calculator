@@ -46,6 +46,7 @@ class _StaggerRouteState extends State<StaggerRoute>
   }
 }
 
+// ignore: must_be_immutable
 class StaggerAnimation extends StatelessWidget {
   final Animation<double> controller;
   Animation<double> height;

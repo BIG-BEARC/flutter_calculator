@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_calculator/manager/RouteManager.dart';
 import 'package:flutter_calculator/page/animation/ScaleAnimationRoute.dart';
 import 'package:flutter_calculator/page/animation/StaggerAnimation.dart';
 

@@ -34,6 +34,10 @@ dependencies:
   path_provider: ^0.4.1
   dio: ^3.0.10
   json_annotation: ^2.0.0
+  # toast
+  fluttertoast: ^4.0.1
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

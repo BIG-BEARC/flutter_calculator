@@ -19,12 +19,12 @@ class _ListViewRouteState extends State<ListViewRoute> {
 
   @override
   Widget build(BuildContext context) {
-    Divider divider1 = Divider(
+ /*   Divider divider1 = Divider(
       color: Colors.blue,
     );
     Divider divider2 = Divider(
       color: Colors.red,
-    );
+    );*/
     return Material(
       /* child: ListView.builder(
         itemBuilder: (BuildContext context, int index) {

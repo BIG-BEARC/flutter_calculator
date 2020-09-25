@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_calculator/manager/RouteManager.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 import 'data/EchoRouteParams.dart';
 
@@ -301,10 +302,21 @@ class _MyHomePageState extends State<MyHomePage> {
                         onPressed: () {
                           Navigator.of(context)
                               .pushNamed(Route_CustomWidgetRoute);
+                          Fluttertoast.showToast(msg: 'To CustomWidgetRoute');
                         },
                         child: Text('To CustomWidgetRoute'),
                         color: Colors.blue,
                       ),
+                      RaisedButton(
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushNamed(Route_PageRoute);
+                          Fluttertoast.showToast(msg: 'To PageRoute');
+                        },
+                        child: Text('To PageRoute'),
+                        color: Colors.blue,
+                      ),
+
                     ],
                   ),
                 ),

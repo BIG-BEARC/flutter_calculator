@@ -17,6 +17,7 @@ import 'package:flutter_calculator/page/custom_widget/CustomWidgetRoute.dart';
 import 'package:flutter_calculator/page/event_notification/EventAndNotification.dart';
 import 'package:flutter_calculator/page/file_network/FileAndNetWorkDemo.dart';
 import 'package:flutter_calculator/page/scroll_widget/CustomScrollViewTestRoute.dart';
+import 'package:flutter_calculator/page/scroll_widget/PageRoute.dart';
 import 'package:flutter_calculator/page/scroll_widget/ScrollControllerTestRoute.dart';
 import 'package:flutter_calculator/page/share/DialogWidgetRoute.dart';
 import 'package:flutter_calculator/page/share/FutureBuilderAndStreamBuilder.dart';
@@ -63,6 +64,7 @@ const Route_AnimationDemo = "/AnimationDemo";
 const Route_ScaleAnimationRoute = "/ScaleAnimationRoute";
 const Route_FileAndNetWorkDemo = "/FileAndNetWorkDemo";
 const Route_CustomWidgetRoute = "/CustomWidgetRoute";
+const Route_PageRoute = "/PageRoute";
 
 var routePath = {
   '$Route_TapboxA': (context) => TapboxA(),
@@ -97,4 +99,5 @@ var routePath = {
   '$Route_ScaleAnimationRoute': (context) => ScaleAnimationRoute(),
   '$Route_FileAndNetWorkDemo': (context) => FileAndNetWorkDemo(),
   '$Route_CustomWidgetRoute': (context) => CustomWidgetRoute(),
+  '$Route_PageRoute': (context) => PageRoute(),
 };
