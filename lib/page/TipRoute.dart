@@ -21,7 +21,7 @@ class TipsRoute extends StatelessWidget {
               Text('receiver text: $_text '),
               FlatButton(
                 onPressed: () => {
-                  Navigator.of(context).pop(['我是返回值'])
+                  Navigator.of(context).pop('我是返回值')
                 },
                 child: Text('pop TipRoute'),
                 color: Colors.blue,
