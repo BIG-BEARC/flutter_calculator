@@ -11,6 +11,9 @@ class TipsRoute extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(icon: Icon(Icons.arrow_back_ios), onPressed: (){
+          Navigator.of(context).pop('点击 title 中 back icon 返回 ');
+        }),
         title: Text('TipsRoute'),
       ),
       body: Padding(
