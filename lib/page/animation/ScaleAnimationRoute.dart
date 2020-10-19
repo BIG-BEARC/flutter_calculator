@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ScaleAnimationRoute extends StatefulWidget {
+  static final String routerName = '/ScaleAnimationRoute';
   @override
   State<StatefulWidget> createState() => _ScaleAnimationRouteState();
 }

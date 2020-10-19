@@ -10,6 +10,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 ///https://book.flutterchina.club/chapter3/buttons.html
 ///https://book.flutterchina.club/chapter3/text.html
 class NormalWidget extends StatefulWidget {
+  static final String routerName = '/NormalWidget';
   @override
   State<StatefulWidget> createState() => _NormalWidgetState();
 }

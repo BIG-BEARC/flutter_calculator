@@ -5,6 +5,7 @@ import 'package:flutter_calculator/page/file_network/FileOperationRoute.dart';
 import 'DioFutureBuilderRoute.dart';
 
 class FileAndNetWorkDemo extends StatelessWidget{
+  static final String routerName = '/FileAndNetWorkDemo';
   @override
   Widget build(BuildContext context) {
     return Scaffold(

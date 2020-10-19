@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class DialogWidget extends StatefulWidget{
+  static final String routerName = '/DialogWidget';
   @override
   State<StatefulWidget> createState() =>_DialogWidgetState();
 

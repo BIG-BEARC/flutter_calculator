@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ScrollControllerTestRoute extends StatefulWidget {
+  static final String routerName = '/ScrollControllerTestRoute';
   @override
   State<StatefulWidget> createState() => _ScrollControllerTestRouteState();
 }

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_calculator/page/scroll_widget/GridViewWidget.dart';
 
 class ScaffoldRoute extends StatefulWidget {
+  static final String routerName = '/ScaffoldRoute';
   @override
   State<StatefulWidget> createState() => _ScaffoldRouteState();
 }

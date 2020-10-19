@@ -7,6 +7,7 @@ import 'AnimatedSwitcherCounterRoute.dart';
 import 'HeroAnimationRoute.dart';
 
 class AnimationDemo extends StatelessWidget {
+  static final String routerName = '/AnimationDemo';
   @override
   Widget build(BuildContext context) {
     return Scaffold(

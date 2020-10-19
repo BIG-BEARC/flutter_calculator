@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'CustomWidget.dart';
 
 class CustomWidgetRoute extends StatefulWidget {
+  static final String routerName = '/CustomWidgetRoute';
   @override
   State<StatefulWidget> createState() => _CustomWidgetRouteState();
 }

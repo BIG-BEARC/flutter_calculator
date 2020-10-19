@@ -43,6 +43,7 @@ class _TestWidgetState extends State<_TestWidget> {
 }
 
 class InheritedWidgetTestRoute extends StatefulWidget {
+  static final String routerName = '/InheritedWidgetTestRoute';
   @override
   _InheritedWidgetTestRouteState createState() =>
       new _InheritedWidgetTestRouteState();

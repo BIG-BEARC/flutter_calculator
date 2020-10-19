@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CounterWidget extends StatefulWidget {
+  static final String routerName = '/CounterWidget';
   final int initValue;
 
 

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 /// 子 Widget 状态管理
 class TapboxA extends StatefulWidget {
+  static final  String  routerName = '/TapboxA' ;
   @override
   State<StatefulWidget> createState() => _TapboxAState();
 /*   @override

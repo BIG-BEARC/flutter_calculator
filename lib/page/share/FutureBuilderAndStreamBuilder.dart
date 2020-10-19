@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class FutureBuilderAndStreamBuilder extends StatefulWidget {
+  static final String routerName = '/FutureBuilderAndStreamBuilder';
   @override
   State<StatefulWidget> createState() => _FutureBuilderAndStreamBuilderState();
 }

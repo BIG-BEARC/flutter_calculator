@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ListViewRoute extends StatefulWidget {
+  static final String routerName = '/ListViewRoute';
   @override
   State<StatefulWidget> createState() => _ListViewRouteState();
 }

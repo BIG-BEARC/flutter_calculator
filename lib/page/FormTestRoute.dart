@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class FormTestRoute extends StatefulWidget {
+  static final String routerName = '/SwitchAndCheckBoxTestRoute';
   @override
   State<StatefulWidget> createState() => _FormTestRouteState();
 }

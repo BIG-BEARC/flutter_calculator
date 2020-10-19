@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ProviderRoute extends StatefulWidget {
+  static final String routerName = '/ProviderRoute';
   @override
   _ProviderRouteState createState() => _ProviderRouteState();
 }

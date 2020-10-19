@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class StackAndPositionWidget extends StatefulWidget{
+  static final String routerName = '/StackAndPositionWidget';
   @override
   State<StatefulWidget> createState() =>_StackAndPositionWidgetState();
 }

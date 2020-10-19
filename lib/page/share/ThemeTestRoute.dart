@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ThemeTestRoute extends StatefulWidget {
+  static final String routerName = '/ThemeTestRoute';
   @override
   State<StatefulWidget> createState() => _ThemeTestRouteState();
 }

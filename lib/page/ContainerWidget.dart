@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 ///尺寸限制类容器
 class ContainerWidget extends StatefulWidget {
+  static final String routerName = '/ContainerWidget';
   @override
   State<StatefulWidget> createState() => _ContainerWidgetState();
 }

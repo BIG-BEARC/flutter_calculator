@@ -205,6 +205,18 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  fluttertoast:
+    dependency: "direct main"
+    description:
+      name: fluttertoast
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.0.1"
   front_end:
     dependency: transitive
     description:
@@ -255,12 +267,19 @@ packages:
     source: hosted
     version: "3.1.4"
   intl:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: intl
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.16.1"
+  intl_translation:
+    dependency: "direct dev"
+    description:
+      name: intl_translation
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.17.10"
   io:
     dependency: transitive
     description:
@@ -373,6 +392,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.9.0"
+  petitparser:
+    dependency: transitive
+    description:
+      name: petitparser
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.4"
   pool:
     dependency: transitive
     description:
@@ -527,4 +553,4 @@ packages:
     version: "2.2.1"
 sdks:
   dart: ">=2.9.0-14.0.dev <3.0.0"
-  flutter: ">=0.1.4 <2.0.0"
+  flutter: ">=1.12.8 <2.0.0"

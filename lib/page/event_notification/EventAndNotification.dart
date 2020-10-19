@@ -6,6 +6,7 @@ import 'Drag.dart';
 import 'OriginalPointEvent.dart';
 
 class EventAndNotification extends StatefulWidget {
+  static final String routerName = '/EventAndNotification';
   @override
   State<StatefulWidget> createState() => _EventAndNotificationState();
 }

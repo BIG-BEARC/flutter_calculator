@@ -4,6 +4,7 @@ import 'package:flutter_calculator/page/TapboxB.dart';
 import 'package:flutter_calculator/page/TapboxC%20.dart';
 /// 父Widget管理子Widget的状态 ,主要通过回调管理
 class ParentWidget extends StatefulWidget{
+  static final String routerName = '/ParentWidget';
   @override
   State<StatefulWidget> createState() => _ParentWidgetState();
 

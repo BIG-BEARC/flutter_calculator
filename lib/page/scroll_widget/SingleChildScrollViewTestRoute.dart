@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SingleChildScrollViewTestRoute extends StatelessWidget {
+  static final String routerName = '/SingleChildScrollViewTestRoute';
   @override
   Widget build(BuildContext context) {
     String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

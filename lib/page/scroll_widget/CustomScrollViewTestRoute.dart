@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomScrollViewTestRoute  extends StatelessWidget{
+  static final String routerName = '/CustomScrollViewTestRoute';
   @override
   Widget build(BuildContext context) {
   return Material(
